@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="19324206-5d14-4a91-8d93-a28b4da5b624" name="pzulfuwd.beget.tech">
+        <fileTransfer rootFolder="/home/p/pzulfuwd" accessType="SFTP" host="pzulfuwd.beget.tech" port="22" sshConfigId="7c261f89-9604-4d4f-8b1c-ebcdf21dcf70" sshConfig="pzulfuwd@pzulfuwd.beget.tech:22 agent" authAgent="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

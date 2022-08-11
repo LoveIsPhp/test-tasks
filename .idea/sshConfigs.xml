@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="OPEN_SSH" host="pzulfuwd.beget.tech" id="7c261f89-9604-4d4f-8b1c-ebcdf21dcf70" port="22" nameFormat="DESCRIPTIVE" username="pzulfuwd" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
