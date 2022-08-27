@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/ext/lgit" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/data_structures" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/modules/lgit" vcs="Git" />
   </component>
 </project>

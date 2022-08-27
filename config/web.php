@@ -11,6 +11,14 @@ $config = [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
+    'modules' => [
+        'lgit' => [
+            'class' => 'app\modules\lgit\Module',
+        ],
+        'data_structures' => [
+            'class' => 'app\modules\data_structures\Module',
+        ],
+    ],
     'components' => [
         'lgit' => [
             'class' => 'app\ext\lgit\LGit',
@@ -64,14 +72,14 @@ if (YII_ENV_DEV) {
     $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
         // uncomment the following to add your IP if you are not connecting from localhost.
-//        'allowedIPs' => ['127.0.0.1', '::1','172.18.0.3','172.18.0.1'],
+        'allowedIPs' => ['127.0.0.1', '::1','172.18.0.3','172.18.0.1'],
     ];
 
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
         // uncomment the following to add your IP if you are not connecting from localhost.
-//        'allowedIPs' => ['127.0.0.1', '::1','172.18.0.3','172.18.0.1'],
+        'allowedIPs' => ['127.0.0.1', '::1','172.18.0.3','172.18.0.1'],
     ];
 }
 
